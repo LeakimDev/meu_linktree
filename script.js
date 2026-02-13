@@ -23,3 +23,5 @@ setTimeout(escrever,80);
 }
 
 escrever();
+
+// saBOUR java script
