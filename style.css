@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Orbitron',sans-serif;
+}
+
+body{
+height:100vh;
+background:#020617;
+overflow:hidden;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* FUNDO ANIMADO */
+.bg{
+position:fixed;
+width:100%;
+height:100%;
+background:linear-gradient(45deg,#020617,#020617,#0f172a,#020617);
+background-size:400% 400%;
+animation:bgmove 15s infinite;
+z-index:-1;
+}
+
+@keyframes bgmove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.card{
+width:380px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,0.1);
+border-radius:20px;
+padding:40px 25px;
+text-align:center;
+box-shadow:0 0 40px rgba(0,0,0,0.8);
+animation:fade 1.2s ease;
+}
+
+@keyframes fade{
+from{opacity:0; transform:translateY(30px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+.logo{
+width:110px;
+margin-bottom:15px;
+}
+
+h1{
+font-size:24px;
+margin-bottom:10px;
+color:#38bdf8;
+}
+
+.slogan{
+font-size:13px;
+color:#cbd5e1;
+margin-bottom:30px;
+line-height:1.6;
+}
+
+.slogan span{
+color:#22c55e;
+font-weight:bold;
+}
+
+.links{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.btn{
+text-decoration:none;
+padding:15px;
+border-radius:12px;
+background:#0f172a;
+border:1px solid #38bdf8;
+color:#38bdf8;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#38bdf8;
+color:black;
+transform:scale(1.05);
+box-shadow:0 0 20px #38bdf8;
+}
+
+.whatsapp{
+background:#22c55e;
+color:white;
+border:none;
+}
+
+.whatsapp:hover{
+background:#16a34a;
+box-shadow:0 0 20px #22c55e;
+}
+
+footer{
+margin-top:25px;
+font-size:11px;
+color:#64748b;
+}
