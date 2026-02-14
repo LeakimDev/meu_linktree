@@ -59,6 +59,8 @@ to{opacity:1; transform:translateY(0);}
 .logo{
 width:110px;
 margin-bottom:15px;
+border-radius:50%
+border:3px solid #ffffff;
 }
 
 h1{
@@ -120,3 +122,4 @@ font-size:11px;
 color:#64748b;
 }
 /*eu sem entender porra nenhuma :D */
+
