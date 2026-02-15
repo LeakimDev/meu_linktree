@@ -25,6 +25,13 @@ setTimeout(escrever,80);
 escrever();
 
 // saBOUR java script
+function abrirWhats(){
+document.getElementById("menuWhats").style.display="flex";
+}
+
+function fecharWhats(){
+document.getElementById("menuWhats").style.display="none";
+}
 
 // ===== FUNDO BINARIO CAINDO =====
 const canvas = document.getElementById("matrix");
@@ -68,3 +75,4 @@ window.addEventListener("resize", ()=>{
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 });
+
