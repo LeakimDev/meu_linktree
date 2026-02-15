@@ -20,7 +20,7 @@ align-items:center;
 position:fixed;
 width:100%;
 height:100%;
-background:linear-gradient(45deg,#020617,#020617,#0f172a,#020617);
+backdrop-filter:blur(2px);
 background-size:400% 400%;
 animation:bgmove 15s infinite;
 z-index:-1;
@@ -123,6 +123,13 @@ color:#64748b;
 }
 /*eu sem entender porra nenhuma :D */
 
-
-
-
+/* FUNDO BINARIO MATRIX */
+#matrix{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-2;
+background:black;
+}
