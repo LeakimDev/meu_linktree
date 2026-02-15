@@ -123,6 +123,65 @@ color:#64748b;
 }
 /*eu sem entender porra nenhuma :D */
 
+/* MENU WHATSAPP */
+.whats-menu{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.85);
+display:none;
+justify-content:center;
+align-items:center;
+z-index:999;
+}
+
+.whats-box{
+background:#020617;
+padding:30px;
+border-radius:20px;
+width:300px;
+text-align:center;
+border:1px solid #22c55e;
+box-shadow:0 0 25px #22c55e;
+animation:fade 0.4s;
+}
+
+.whats-box h3{
+margin-bottom:20px;
+color:#22c55e;
+}
+
+.whats-box a{
+display:block;
+text-decoration:none;
+background:#0f172a;
+color:white;
+padding:12px;
+margin:8px 0;
+border-radius:10px;
+transition:0.3s;
+border:1px solid #22c55e;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.whats-box a:hover{
+background:#22c55e;
+color:black;
+transform:scale(1.05);
+}
+
+.whats-box button{
+margin-top:15px;
+padding:10px 20px;
+border:none;
+background:red;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
 /* FUNDO BINARIO MATRIX */
 #matrix{
 position:fixed;
@@ -133,3 +192,4 @@ height:100%;
 z-index:-2;
 background:black;
 }
+
